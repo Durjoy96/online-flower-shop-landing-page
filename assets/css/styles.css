@@ -182,3 +182,40 @@ header {
     letter-spacing: 0%;
     margin: 24px 0 0;
 }
+
+/* hot deal section styles */
+.hot-deal-container {
+    background-color: var(--base-300);
+    margin: 128px 0 0;
+    padding: 100px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-deal-parent {
+    display: inherit;
+    align-items: center;
+    gap: 186px;
+}
+
+.hot-deal-content {
+    max-width: 594px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hot-deal-content .title {
+    text-align: left;
+}
+
+.title span {
+    color: var(--primary);
+}
+
+.hot-deal-content .description {
+    margin: 24px 0 32px;
+}
